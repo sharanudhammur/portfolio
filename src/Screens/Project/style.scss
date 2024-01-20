@@ -1,0 +1,67 @@
+@import "../../App.scss";
+
+.project-screen {
+    background-color: $bgcolor;
+    display: flex;
+    margin: auto;
+    padding-bottom: 100px;
+
+    .project-screen-wrapper {
+        // background-color: $bgcolor;
+        // display: grid;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // grid-template-columns: 1fr auto;
+        // gap: 50px;
+        // height: 100%;
+        padding: 0px 100px;
+
+        .title {
+            font-size: 25px;
+            margin-bottom: 15px;
+        }
+
+        .project-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            gap: 30px;
+
+            .project-card {
+                box-shadow: 0px 0px 3px gray;
+                // box-shadow: 0 20px 25px -5px #cbd5e1 ,0 8px 10px -6px #cbd5e1;
+                // padding: 10px;
+                border-radius: 10px;
+                overflow: hidden;
+
+                img {
+                    width: 100%;
+                }
+
+                .project-detail {
+                    padding: 15px 10px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+
+                    .name {
+                        font-size: 18px;
+                        margin-bottom: 8px;
+                    }
+
+                    .desc {
+                        font-weight: 300;
+                        font-size: 14px;
+                        // color: rgb(94, 93, 93);
+                    }
+
+                    .tech {}
+                }
+
+
+            }
+        }
+
+    }
+
+}
