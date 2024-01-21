@@ -16,10 +16,6 @@
         // gap: 50px;
         // height: 100%;
         padding: 0px 100px;
-        .title{
-            font-size: 25px;
-            margin-bottom: 15px;
-        }
 
         .exp-list {
             display: flex;
@@ -63,4 +59,14 @@
         }
     }
 
+}
+@media screen and (max-width: 850px) {
+
+    .exp-screen {
+
+        .exp-screen-wrapper {
+            padding: 0px 20px;
+        }
+
+    }
 }

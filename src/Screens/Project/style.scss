@@ -17,11 +17,6 @@
         // height: 100%;
         padding: 0px 100px;
 
-        .title {
-            font-size: 25px;
-            margin-bottom: 15px;
-        }
-
         .project-list {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
@@ -64,4 +59,20 @@
 
     }
 
+}
+
+@media screen and (max-width: 850px) {
+
+    .project-screen {
+
+        .project-screen-wrapper {
+            padding: 0px 20px;
+
+            .project-list {
+                display: grid;
+                grid-template-columns: 1fr;
+            }
+        }
+
+    }
 }

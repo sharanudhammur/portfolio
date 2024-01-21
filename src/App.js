@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.scss';
 import Home from './Screens/Home/Home';
 import Experience from './Screens/Experience/Experience';
