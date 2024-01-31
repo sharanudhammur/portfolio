@@ -2,6 +2,9 @@ import React from 'react'
 import "./style.scss"
 
 function Tech() {
+
+    console.log("hello")
+
     const tech = [
         {
             techType: "Languages and Tools",
