@@ -198,7 +198,6 @@ function Tech() {
                                         )
                                     })}
                                 </div>
-
                             </div>
                         )
                     })}

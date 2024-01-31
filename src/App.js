@@ -6,6 +6,7 @@ import Project from './Screens/Project/Project';
 import Footer from './Screens/Footer/Footer';
 
 function App() {
+  console.log("push")
   return (
     <div className="App">
       <Home/>
