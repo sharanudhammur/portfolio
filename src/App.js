@@ -10,6 +10,7 @@ function App() {
   console.log("push")
   console.log("push")
   console.log("push")
+  console.log("push")
   return (
     <div className="App">
       <Home/>
