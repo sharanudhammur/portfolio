@@ -7,7 +7,7 @@ import Footer from './Screens/Footer/Footer';
 
 function App() {
   console.log("push")
-  console.log("pushs")
+  console.log("pussshs")
   console.log("push")
   console.log("push")
   console.log("push")
