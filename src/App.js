@@ -12,6 +12,7 @@ function App() {
   console.log("push")
   console.log("push")
   console.log("pushff")
+  console.log("pushff")
   return (
     <div className="App">
       <Home/>
