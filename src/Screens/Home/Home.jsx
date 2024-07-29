@@ -3,6 +3,9 @@ import "./style.scss"
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { IoMdMail } from "react-icons/io";
+// import { ReactComponent as DotImage } from "../../Assets/Images/DotImage.svg";
+// import {component}
+// import { UnFilledHeartIcon, FilledHeartIcon, CoffeeWebLogo, devEnvLogo } from 'Assets/Icons'
 
 function Home() {
 
@@ -37,10 +40,12 @@ function Home() {
         <div className='home-screen'>
             <div className='home-screen-wrapper'>
                 <div className='aboutme'>
-                    <div className='small-banner-image'><img src="https://dsbalico.netlify.app/photo.jpg" alt="" /></div>
+                    <div className='Hey_there'>Hey there!, I'm-</div>
                     <div className='firstname'>Sharanabasappa</div>
-                    <div className='designation'>MERN stack Developer</div>
-                    <div className='about'>I am a MERN Stack Developer, bringing 3.9+ years in designing and constructing highly responsive user interfaces. I specialize in leveraging React.js to create dynamic and efficient user interfaces that engage users seamlessly. My proficiency extends to crafting backend systems using Node.js, MongoDB, and Express.js, where I prioritize scalability, security, and data integrity.</div>
+                    {/* <div className='designation'>MERN stack Developer</div> */}
+                    <div className='about'><span style={{ color: "black" }}>Software Engineer.</span> A self-taught developer with an
+                        interest in Computer Science.</div>
+                        {/* <button className='title' style={{backgroundColor:"#3CCF91", color:"white", width:"170px", border:"0", borderRadius:"4px", padding:"10px 0px", fontSize:"18px"}}>Resume</button> */}
                     <div className='links'>
                         {links.map((ele) => {
                             return (
@@ -51,7 +56,6 @@ function Home() {
                             )
                         })}
                     </div>
-                    <div className='title'></div>
                 </div>
                 <div className='banner-image'><img src="https://dsbalico.netlify.app/photo.jpg" alt="" /></div>
             </div>

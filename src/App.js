@@ -1,27 +1,22 @@
 import './App.scss';
+import "./theme.scss"
 import Home from './Screens/Home/Home';
 import Experience from './Screens/Experience/Experience';
 import Tech from './Screens/Tech/Tech';
 import Project from './Screens/Project/Project';
 import Footer from './Screens/Footer/Footer';
+import Header from './Screens/Header';
+import About from './Screens/About';
 
 function App() {
-  console.log("push")
-  console.log("pussssshs")
-  console.log("push")
-  console.log("push")
-  console.log("push")
-  console.log("pushff")
-  console.log("pushff")
-  console.log("pushff")
-  console.log("pushff")
-  console.log("pushff")
-  console.log("pushfddcdxsszsxdfcgxdffdxf")
+
   return (
     <div className="App">
+      <Header/>
       <Home/>
-      <Experience/>
+      <About/>
       <Tech/>
+      <Experience/>
       <Project/>
       <Footer/>
     </div>

@@ -1,74 +1,111 @@
-@import "../../App.scss";
+@import "../../theme.scss";
 
 .tech-screen {
     background-color: $bgcolor;
-    // height: 100vh;
-    display: flex;
     margin: auto;
-    padding-bottom: 150px;
+    background-color: white;   
+    background-color: rgb(15, 15, 15);
+    color: white;
+    background-color: rgb(9, 9, 11);
 
     .tech-screen-wrapper {
-        // background-color: $bgcolor;
-        // display: grid;
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-        // grid-template-columns: 1fr auto;
-        // gap: 50px;
-        // height: 100%;
-        padding: 0px 100px;
+        margin: auto;
+        max-width: 800px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        padding: 130px 0px;
+        
+        .tech-cards {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+            align-items: start;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            // display: grid;
+            // grid-template-columns: 1fr 1fr 1fr;
+            .wrapper {
+                flex: 1;
+                width: -webkit-fill-available;
+                background-color: white;   
+                // border: 2px solid rgb(171, 171, 171);
+                // border: 1px solid #3ccf92;
+                background-color: rgb(25, 25, 25);   
+                border: 1px solid rgb(39, 39, 42);
+                background-color: rgb(19, 19, 22);
+                border-radius: 2px;
+                padding: 20px 20px;
+                border-radius: 10px;
+                height: 100%;
+                display: flex;
+  
+                flex-direction: column;
 
-        .tech-list {
-            .each-tech-type {
+                .tech-title {
+                    font-size: 20px;
+                    margin-bottom: 20px;
+                }
 
-                .tech-type-wrapper {
-                    display: grid;
-                    display: flex;
-                    gap: 4px;
-                    // grid-template-columns: 100% 100% 100%;
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: flex-start;
+                .each-tech-type {
 
-
-
-                    .tech-detail {
+                    .tech-type-wrapper {
+                        display: grid;
                         display: flex;
-                        align-items: center;
-                        padding: 7px 12px;
-                        gap: 6px;
-                        // color: white;
-                        font-size: 14px;
-                        letter-spacing: 1px;
+                        gap: 4px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: flex-start;
 
-                        svg {
-                            width: 30px;
-                            height: 30px;
-                            color: white;
+
+
+                        .tech-detail {
+                            display: flex;
+                            align-items: center;
+                            padding: 5px 10px;
+                            gap: 10px;
+                            font-size: 14px;
+                            letter-spacing: 1px;
+                            border: 1px solid #3ccf9299;
+                            // border: 1px solid #3ccf92;
+                            border-radius: 30px;
+                            color: black;
+                            color: rgb(190, 190, 190);
+                            // background-color: #3ccf9260;
+
+                            svg {
+                                width: 30px;
+                                height: 30px;
+                                color: white;
+                            }
+
+                            img {
+                                width: 20px;
+                            }
+                            .dot{
+                                // display: none;
+                                height: 8px;
+                                width:  8px;
+                                background-color: #3ccf9299;
+                                border-radius: 50%;
+                            }
+
                         }
-
-                        img {
-                            width: 20px;
-                            // margin: 10px;
-                        }
-
                     }
                 }
             }
         }
-
-
-
     }
 
 }
 
 @media screen and (max-width: 850px) {
-
     .tech-screen {
-
         .tech-screen-wrapper {
-            padding: 0px 20px;
+            padding: 70px 15px;
         }
 
     }

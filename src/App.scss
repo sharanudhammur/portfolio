@@ -3,7 +3,7 @@
 // $swhite: white;
 // $pdark : #0e182c;
 // $sdark : #101e38;
-
+$primary-font-color: #3CCF91;
 
 $bgcolor : white;
 $sbgcolor : rgb(236, 236, 236);
@@ -12,14 +12,16 @@ $gray: gray;
 
 body {
   // color: $white;
-  background-color: $sbgcolor;
+  // background-color: $sbgcolor;
   font-family: 'Roboto', sans-serif;
-  max-width: 1200px;
+  // max-width: 1000px;
   margin: auto;
 }
 
 .title {
   font-size: 30px;
-  margin: 20px 0px;
+  // margin: 20px 0px;
   font-weight: 600;
+  // color: $primary-font-color;
+  // text-transform: uppercase;
 }

@@ -1,58 +1,100 @@
-@import "../../App.scss";
+@import "../../theme.scss";
 
 .exp-screen {
     background-color: $bgcolor;
     display: flex;
     margin: auto;
-    padding-bottom: 100px;
 
     .exp-screen-wrapper {
-        // background-color: $bgcolor;
-        // display: grid;
-        // display: flex;
-        // justify-content: center;
-        // align-items: center;
-        // grid-template-columns: 1fr auto;
-        // gap: 50px;
-        // height: 100%;
-        padding: 0px 100px;
+        padding: 130px 0px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: auto;
+        max-width: 800px;
+
+        .title {
+            background-color: white;
+            padding: 5px 0px;
+        }
 
         .exp-list {
             display: flex;
             flex-direction: column;
-            gap: 30px;
+            gap: 15px;
 
             .each-exp {
                 display: flex;
                 gap: 15px;
 
-                .bullet {
-                    width: 10px;
-                    height: 10px;
-                    background-color: #48b5d6;
-                    border-radius: 50%;
-                    margin-top: 5px;
+                .left {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 15px;
+                    padding-top: 4px;
+
+
+                    .bullet {
+                        width: 8px;
+                        height: 8px;
+                        background-color: #3ccf92;
+                        border-radius: 50%;
+                        aspect-ratio: 1/1;
+                        color: white;
+                        // margin-top: 5px;
+                    }
+
+                    .line {
+                        width: 2px;
+                        background-color: lightgray;
+                        height: -webkit-fill-available;
+                        height: 100%;
+                        border-radius: 10px;
+                        // position: relative;
+                        // margin-left: -30px;
+                        // top: 0px;
+                    }
                 }
 
                 .details {
                     display: flex;
                     flex-direction: column;
                     gap: 6px;
+                    margin-bottom: 10px;
 
                     .duration {
                         display: flex;
                         gap: 4px;
                         font-size: 14px;
-                        color: $gray;
+                        color: #05b96e;
                         // font-weight: 300;
+                        // font-size: 18px;
                     }
 
                     .position {
                         font-weight: 500;
+                        // color: $primary-font-color;
+                        // font-size: 18px;
+                        color: rgb(84, 84, 84);
+                    }
+                    
+                    .company {
+                        font-size: 18px;
+                        margin-top: 3px;
+                        // font-size: 20px;
                     }
 
-                    .company {
-                        color: gray;
+                    .points {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 10px;
+                        font-family: Inter, sans-serif;
+                        color: rgb(84, 84, 84);
+
+                        li {
+                            line-height: 1.5;
+                        }
                     }
                 }
             }
@@ -60,12 +102,27 @@
     }
 
 }
+
 @media screen and (max-width: 850px) {
-
     .exp-screen {
-
         .exp-screen-wrapper {
-            padding: 0px 20px;
+            padding: 70px 15px;
+
+            .exp-list {
+                .each-exp {
+                    height: 100%;
+
+                    .left {
+                        .line {
+                            height: 100%;
+                        }
+                    }
+
+                    .details .points {
+                        padding-inline-start: 20px;
+                    }
+                }
+            }
         }
 
     }

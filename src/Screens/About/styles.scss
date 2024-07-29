@@ -1,0 +1,51 @@
+@import "../../theme.scss";
+
+.about-screen {
+    background-color: $bgcolor;
+    display: flex;
+    margin: auto;
+    padding-bottom: 100px;
+
+    .about-screen-wrapper {
+        // background-color: $bgcolor;
+        // display: grid;
+        // display: flex;
+        // justify-content: center;
+        // align-items: start;
+        // grid-template-columns: 1fr auto;
+        // gap: 50px;
+        // height: 100%;
+        // padding: 0px 100px;
+        // display: grid;
+        // grid-template-columns: 1fr 4fr;
+        // padding: 0px 100px;
+        margin: auto;
+        max-width: 800px;
+        padding: 0px 0px 30px 0px;
+        .title{
+            // position: sticky;
+            // top: 60px;
+            background-color: white;
+            padding: 5px 0px;
+        }
+        .about-me{
+            line-height: 1.8;
+            font-size: 18px;
+            letter-spacing: 0.5px;
+            font-weight: 300;
+        }
+
+    }
+
+}
+
+@media screen and (max-width: 850px) {
+
+    .about-screen {
+
+        .about-screen-wrapper {
+            padding: 0px 20px;
+        }
+
+    }
+}
