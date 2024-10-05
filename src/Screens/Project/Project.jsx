@@ -9,7 +9,7 @@ function Project() {
         {
             name: "Chat GPT",
             desc: "A powerful Markdown editor and parser built using Next.js, leveraging SCSS for styling and the Monaco Editor for an enhanced editing experience.",
-            img: "https://react-portfolio-v1.netlify.app/static/media/project3.03535c34c110b7ea292b.jpg",
+            img: "https://m-img.org/spai/w_924+q_lossless+ret_img+to_webp/matomo.org/wp-content/uploads/2022/10/Chewy-Homepage.png",
             link: "",
             githubLink: "",
             tech: ["React Node", "Nodejs", "HTML", "CSS", "JavsScript","CSS", "React", "Nodejs", "HTML", "CSS", "JavsScript"]
@@ -17,7 +17,7 @@ function Project() {
         {
             name: "OpenAI GPT",
             desc: "A recommendation algorithm that uses OpenAI GPT and function calling feature to get a realtime recommendation system based on user's previous preferences",
-            img: "https://react-portfolio-v1.netlify.app/static/media/project2.5fae296d371cc56cd98a.jpg",
+            img: "https://www.searchenginejournal.com/wp-content/uploads/2019/10/skype-home-page-example-5dbbf8645cb39.jpg",
             link: "",
             githubLink: "",
             tech: ["React Node", "React Node", "Nodejs", "HTML", "CSS", "JavsScript","CSS", "React", "Nodejs", "HTML", "CSS", "JavsScript"]
@@ -25,7 +25,15 @@ function Project() {
         {
             name: "Web Scrapper",
             desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed, molestias praesentium distinctio hic tenetur illum esse adipisci official",
-            img: "https://react-portfolio-v1.netlify.app/static/media/project4.a7b7ed11daa072b234eb.jpg",
+            img: "https://img.freepik.com/free-vector/flat-design-abstract-geometric-real-estate-landing-page_23-2149127010.jpg?size=626&ext=jpg&ga=GA1.1.1819120589.1727913600&semt=ais_hybrid",
+            link: "",
+            githubLink: "",
+            tech: ["React Node", "React Node", "Nodejs", "HTML", "CSS", "JavsScript","CSS", "React", "Nodejs", "HTML", "CSS", "JavsScript"]
+        },
+        {
+            name: "Web Scrapper",
+            desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sed, molestias praesentium distinctio hic tenetur illum esse adipisci official",
+            img: "https://img.freepik.com/free-vector/business-concept-landing-page_23-2148276812.jpg",
             link: "",
             githubLink: "",
             tech: ["React Node", "React Node", "Nodejs", "HTML", "CSS", "JavsScript","CSS", "React", "Nodejs", "HTML", "CSS", "JavsScript"]
@@ -33,7 +41,7 @@ function Project() {
         {
             name: "Calculators",
             desc: "Calculator made using Html, CSS and JavaScript which can perform all the basic math operations.",
-            img: "https://react-portfolio-v1.netlify.app/static/media/project4.a7b7ed11daa072b234eb.jpg",
+            img: "https://img.freepik.com/free-psd/flat-design-interior-design-template_23-2150031565.jpg",
             link: "",
             githubLink: "",
             tech: ["ReactJS", "HTML", "CSS", "JavsScript",]

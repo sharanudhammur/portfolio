@@ -7,6 +7,8 @@ import Project from './Screens/Project/Project';
 import Footer from './Screens/Footer/Footer';
 import Header from './Screens/Header';
 import About from './Screens/About';
+import Techn from './Screens/Techn/Techn';
+import Tech2 from './Screens/Tech2';
 
 function App() {
 
@@ -16,6 +18,8 @@ function App() {
       <Home/>
       <About/>
       <Tech/>
+      <Tech2/>
+      <Techn/>
       <Experience/>
       <Project/>
       <Footer/>
