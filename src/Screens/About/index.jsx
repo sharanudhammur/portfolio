@@ -1,21 +1,24 @@
-import React from 'react'
-import "./styles.scss"
+import React from 'react';
+import './styles.scss';
 
 function About() {
-    return (
-        <div className='about-screen'>
-            <div className='about-screen-wrapper'>
-                <div className='title'>About</div>
-                <div>
-                    <div className='about-me'>
-                        Hi, this is Sharanabasappa. I have over 3 years of experience in the software development field and am currently working as a Senior Software Engineer at COFFEEWEB TECHNOLOGIES PVT. LTD.
-                        I specialize in building scalable web applications and am proficient in both frontend and backend technologies. My expertise includes MongoDB, Express.js, React.js, and Node.js, with a strong focus on RESTful API design and database modeling. I excel at collaborating with cross-functional teams to deliver innovative solutions and enhance user experiences.
-                    </div>
-                </div>
-
+  return (
+    <div className='about-screen'>
+      <div className='about-screen-wrapper'>
+        <div className='title'>About</div>
+        <div>
+          <div className='about-me'>
+            <div>
+              Hello, I’m <strong className='highlight'>Sharanabasappa</strong>, a Senior Software Engineer at <strong className='highlight'>COFFEEWEB TECHNOLOGIES PVT. LTD.</strong>, with over <strong className='highlight'>3 years</strong> of experience in software development. I specialize in designing and developing scalable web applications, leveraging my expertise in both frontend and backend technologies.
             </div>
+            <div style={{ marginTop: '20px' }}>
+              Proficient in <strong className='highlight'>MongoDB, Express.js, React.js, and Node.js</strong>, I focus on building seamless, user-centric applications with a strong emphasis on <strong className='highlight'>RESTful API design</strong> and <strong className='highlight'>database architecture</strong>. I am passionate about creating innovative solutions that enhance user experiences and thrive in collaborative, cross-functional team environments.
+            </div>
+          </div>
         </div>
-    )
+      </div>
+    </div>
+  );
 }
 
-export default About
+export default About;

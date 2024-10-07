@@ -1,58 +1,64 @@
-import React from 'react'
-import "./style.scss"
-import { FaGithub, FaLinkedin  } from "react-icons/fa";
+import React from 'react';
+import './style.scss'; // Custom CSS for modern look
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { IoMdMail } from "react-icons/io";
+import { FaTwitter } from "react-icons/fa";
 
-function Footer() {
-    const links = [
-        {
-            name: "GitHub",
-            link: "https://github.com/sharanudhammur",
-            icon: <FaGithub />
-        },
-        {
-            name: "LinkedIn",
-            link: "",
-            icon: <FaLinkedin />
-        },
-        {
-            name: "Twitter",
-            link: "",
-            icon: <FaSquareXTwitter />
-        },
-        {
-            name: "Mail",
-            link: "",
-            icon: <IoMdMail />
-        },
-    ]
+const Footer = () => {
+    const currentYear = new Date().getFullYear();
+  
     return (
-        <div className='footer-screen'>
-            <div className='footer-screen-wrapper'>
-                <div className='title'>Let's Get in Touch: Ways to Connect with Me</div>
-                <div className='desc'>Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions. If you have a specific question or comment, please feel free to email me directly at danielshan.balico@gmail.com. I make an effort to respond to all messages within 24 hours, although it may take me longer during busy periods. Finally, if you prefer to connect on social media, you can connect with me using the social media links below.</div>
-                {/* <div className='links'>
-                    {links.map((ele) => {
-                        return (
-                            <div className='link'>
-                                {ele.icon}
-                                <a href={ele.link} target='_blank' rel="noreferrer">
-                                    {ele.name}
-                                </a>
-                            </div>
-                        )
-                    })}
-                </div> */}
-                <div>
-                    <div>Phone</div>
-                    <div>Email</div>
-                    <div></div>
-                    <div></div>
-                </div>
+      <footer className="footer-modern">
+        <div className="footer-container">
+          {/* Branding Section */}
+          <div className="footer-top">
+            <div className="brand-section">
+              {/* <h3>Your Name</h3> */}
+              <p>Crafting web experiences with creativity and precision.</p>
             </div>
+  
+            {/* Social Media Section */}
+            <div className="social-section">
+              <h4>Social Connections</h4>
+              <div className="social-links">
+                <a href="https://github.com/your-username" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-github"></i>
+                  <FaGithub />
+                </a>
+                <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-linkedin"></i>
+                  <FaLinkedin />
+                </a>
+                <a href="https://twitter.com/your-username" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-twitter"></i>
+                  <FaSquareXTwitter/>
+                </a>
+                <a href="https://dribbble.com/your-username" target="_blank" rel="noopener noreferrer">
+                  <i className="fab fa-dribbble"></i>
+                  < FaTwitter />
+                </a>
+              </div>
+            </div>
+          </div>
+  
+          {/* Contact Section */}
+          <div className="contact-section">
+            <h4>Get in Touch</h4>
+            <p>Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions.</p>
+            <div className="contact-details">
+              <p>Email: <a href="mailto:danielshan.balico@gmail.com">danielshan.balico@gmail.com</a></p>
+              <p>Phone: <strong>+123-456-7890</strong></p>
+            </div>
+          </div>
+  
+          {/* Footer Bottom Section */}
+          <div className="footer-bottom">
+            <p>&copy; {currentYear} Your Name. Designed with ❤️ and React.</p>
+          </div>
         </div>
-    )
-}
-
-export default Footer
+      </footer>
+    );
+  };
+  
+  export default Footer;

@@ -1,0 +1,35 @@
+.tech-screens {
+    background-color: black;
+    border-top: 0px;
+    padding: 100px;
+    border-top: 3px solid white;
+
+    .tech-wrapper {
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        .title {
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        .skills-lists {
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 45px;
+            .type {
+                font-weight: 600;
+                color: #3CCF91;
+                display: grid;
+                gap: 5px;
+                
+                .keywords {
+                    font-weight: 400;
+                    color: white;
+                }
+            }
+        }
+    }
+}
