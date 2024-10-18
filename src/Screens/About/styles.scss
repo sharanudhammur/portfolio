@@ -4,7 +4,10 @@
     background-color: $bgcolor;
     display: flex;
     margin: auto;
-    padding-bottom: 100px;
+    // padding-bottom: 100px;
+    background-color: #121212;
+    height: 70vh;
+    height: 100vh;
 
     .about-screen-wrapper {
         // background-color: $bgcolor;
@@ -22,17 +25,25 @@
         margin: auto;
         max-width: 800px;
         padding: 0px 0px 30px 0px;
-        .title{
+
+        .title {
             // position: sticky;
             // top: 60px;
-            background-color: white;
+            // background-color: white;
+            color: white;
             padding: 5px 0px;
+            margin-bottom: 20px;
         }
-        .about-me{
+
+        .about-me {
             line-height: 1.6;
-            font-size: 16px;
+            font-size: 18px;
             letter-spacing: 0.5px;
             font-weight: 300;
+            color: white;
+            strong{
+                color: #3ccf91;
+            }
         }
 
     }

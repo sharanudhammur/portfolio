@@ -1,14 +1,14 @@
 import './App.scss';
 import "./theme.scss"
-import Home from './Screens/Home/Home';
-import Experience from './Screens/Experience/Experience';
-import Tech from './Screens/Tech/Tech';
-import Project from './Screens/Project/Project';
-import Footer from './Screens/Footer/Footer';
-import Header from './Screens/Header';
-import About from './Screens/About';
-import Techn from './Screens/Techn/Techn';
-import Tech2 from './Screens/Tech2';
+import Home from './Screens/Home/index';
+import Experience from './Screens/Experience/index';
+import Tech from './Screens/Tech/index';
+import Project from './Screens/Project/index';
+import Footer from './Screens/Footer/index';
+import Header from './Screens/Header/index';
+import About from './Screens/About/index';
+// import Techn from './Screens/Techn/Techn';
+// import Tech2 from './Screens/Tech2';
 
 function App() {
 
@@ -17,10 +17,10 @@ function App() {
       <Header/>
       <Home/>
       <About/>
-      <Tech/>
-      <Tech2/>
-      <Techn/>
       <Experience/>
+      <Tech/>
+      {/* <Tech2/> */}
+      {/* <Techn/> */}
       <Project/>
       <Footer/>
     </div>

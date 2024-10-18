@@ -1,0 +1,17 @@
+{
+    "workbench.editor.customLabels.enabled": true,
+    "workbench.editor.customLabels.patterns": {
+        "*/src/Screens/Tech/style.scss": "Tech.js",
+        "*/src/Screens/Tech/index.jsx": "Tech.jsx",
+        "*/src/Screens/Project/style.scss": "Project.scss",
+        "*/src/Screens/Project/index.jsx": "Project.jsx",
+        "*/src/Screens/Home/index.jsx": "Home.jsx",
+        "*/src/Screens/About/index.jsx": "About.jsx",
+        "*/src/Screens/About/styles.scss": "About.scss",
+        "*/src/Screens/Header/index.jsx": "Header.jsx",
+        "*/src/Screens/Footer/index.jsx": "Footer.jsx",
+        "*/src/Screens/Footer/styles.scss": "Footer.scss",
+        "*/src/Screens/Tech/styles.scss": "Tech.scss",
+        "*/src/Screens/Project/styles.scss": "Project.scss"
+    }
+}

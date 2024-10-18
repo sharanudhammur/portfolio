@@ -1,5 +1,5 @@
 import React from 'react';
-import './style.scss'; // Custom CSS for modern look
+import './styles.scss'; // Custom CSS for modern look
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";

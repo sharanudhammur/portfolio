@@ -6,7 +6,7 @@
     margin: auto;
     background-color: rgba(128, 128, 128, 0.266);
     background-color: rgb(15, 15, 15);
-    background-color: rgb(9, 9, 11);
+    background-color: #121212;
 
     .project-screen-wrapper {
         margin: auto;
@@ -31,9 +31,12 @@
                 color: white;
                 display: grid;
                 grid-template-columns: auto 2fr;
-                padding: 10px;
+                gap: 20px;
+                padding: 20px;
                 overflow: hidden;
                 border: 1px solid rgb(39, 39, 42);
+                background-color: #1e1e1e;
+                border: 1px solid #3ccf92;
 
                 img {
                     height: 130px;
@@ -43,13 +46,15 @@
                 }
 
                 .project-detail {
-                    padding: 0px 15px;
+                    // padding: 0px 15px;
                     display: flex;
                     flex-direction: column;
 
                     .name {
-                        font-size: 18px;
+                        font-size: 20px;
                         margin-bottom: 8px;
+                        color: #3ccf91;
+                        font-weight: 500;
                     }
 
                     .desc {
@@ -57,7 +62,7 @@
                         font-size: 16px;
                         line-height: 1.5;
                         letter-spacing: 0.5px;
-                        color: rgb(129, 129, 129);
+                        // color: rgb(129, 129, 129);
                     }
 
                     .techs {
@@ -65,32 +70,37 @@
                         gap: 6px;
                         column-gap: 6px;
                         flex-wrap: wrap;
-                        margin-top: 15px;
+                        margin-top: 20px;
 
                         .tech {
                             display: flex;
                             align-items: center;
-                            gap: 5px;
-                            border: 1px solid #3ccf9299;
-                            padding: 3px 7px;
-                            border-radius: 30px;
+                            padding: 5px 10px;
+                            background-color: #3b3b3b; // Item background color
+                            border-radius: 20px;
+                            color: #ffffff; // Text color
+                            font-size: 12px;
+                            transition: background-color 0.1s;
 
-                            .dot {
-                                background-color: #3ccf9299;
-                                height: 6px;
-                                width: 6px;
-                                border-radius: 10px;
+                            &:hover {
+                                background-color: #3ccf92; // Change on hover
+                            }
+                            &:hover .dot {
+                                background-color: white; // Change on hover
                             }
 
-                            .tech-name {
-                                font-size: 13px;
-                                color: rgb(148, 148, 148);
+                            .dot {
+                                height: 8px;
+                                width: 8px;
+                                background-color: #3ccf91; // Dot color
+                                border-radius: 50%;
+                                margin-right: 8px;
                             }
                         }
                     }
 
                     .options {
-                        margin-top: 15px;
+                        margin-top: 20px;
                         display: flex;
                         gap: 20px;
                         color: $primary-font-color;
@@ -99,13 +109,7 @@
                         font-size: 14px;
                         // justify-content: end;
 
-                        .live {
-                            display: flex;
-                            justify-self: center;
-                            gap: 5px;
-                        }
-
-                        .git {
+                        .live, .git {
                             display: flex;
                             justify-self: center;
                             gap: 5px;
