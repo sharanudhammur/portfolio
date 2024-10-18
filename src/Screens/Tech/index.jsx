@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import './style.scss';
+import './styles.scss';
 
 function Tech() {
     const skills = [

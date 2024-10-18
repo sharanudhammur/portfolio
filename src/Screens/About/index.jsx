@@ -5,7 +5,7 @@ function About() {
   return (
     <div className='about-screen'>
       <div className='about-screen-wrapper'>
-        <div className='title'>About</div>
+        <div className='title'>About me</div>
         <div>
           <div className='about-me'>
             <div>

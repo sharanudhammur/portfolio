@@ -1,5 +1,3 @@
-
-
 @import "../../theme.scss";
 
 .tech-screen {
@@ -20,8 +18,9 @@
         .title {
             font-size: 28px;
             font-weight: 700;
-            text-align: center;
+            // text-align: center;
             color: #3ccf91; // Highlighted title color
+            color: white; // Highlighted title color
         }
 
         .tech-cards {
@@ -36,15 +35,11 @@
                 padding: 20px;
                 transition: transform 0.2s;
 
-                &:hover {
-                    transform: scale(1.02); // Slight scale effect on hover
-                }
-
                 .tech-title {
-                    font-size: 22px;
+                    font-size: 20px;
                     margin-bottom: 15px;
                     color: #3ccf91; // Title color
-                    font-weight: 600;
+                    // font-weight: 600;
                 }
 
                 .each-tech-type {
@@ -61,10 +56,14 @@
                             border-radius: 20px;
                             color: #ffffff; // Text color
                             font-size: 14px;
-                            transition: background-color 0.3s;
+                            transition: background-color 0.1s;
 
                             &:hover {
                                 background-color: #3ccf92; // Change on hover
+                            }
+
+                            &:hover .dot {
+                                background-color: white; // Change on hover
                             }
 
                             .dot {
@@ -85,7 +84,7 @@
 @media screen and (max-width: 850px) {
     .tech-screen {
         .tech-screen-wrapper {
-            padding: 40px 15px;
+            padding: 40px 0px;
         }
     }
 }
