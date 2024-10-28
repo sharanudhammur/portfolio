@@ -4,34 +4,15 @@
     background-color: $bgcolor;
     display: flex;
     margin: auto;
-    // padding-bottom: 100px;
     background-color: #121212;
-    height: 70vh;
     height: 100vh;
 
     .about-screen-wrapper {
-        // background-color: $bgcolor;
-        // display: grid;
-        // display: flex;
-        // justify-content: center;
-        // align-items: start;
-        // grid-template-columns: 1fr auto;
-        // gap: 50px;
-        // height: 100%;
-        // padding: 0px 100px;
-        // display: grid;
-        // grid-template-columns: 1fr 4fr;
-        // padding: 0px 100px;
         margin: auto;
         max-width: 800px;
-        padding: 0px 0px 30px 0px;
 
         .title {
-            // position: sticky;
-            // top: 60px;
-            // background-color: white;
             color: white;
-            padding: 5px 0px;
             margin-bottom: 20px;
         }
 
@@ -51,12 +32,8 @@
 }
 
 @media screen and (max-width: 850px) {
-
     .about-screen {
-
-        .about-screen-wrapper {
-            padding: 0px 20px;
-        }
-
+        height: auto;
+        padding: 30px 20px;
     }
 }

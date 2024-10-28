@@ -2,12 +2,14 @@
 
 .home-screen {
     background-color: $bgcolor;
-    height: 100vh;
+    height: calc(100vh - 70px);
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    margin-top: -90px;
+    .immm{
+        display: none;
+    }
 
     .home-screen-wrapper {
         background-color: $bgcolor;
@@ -16,11 +18,10 @@
         justify-content: center;
         align-items: center;
         grid-template-columns: 1fr auto;
-        gap: 50px;
+        // gap: 50px;
         height: 100%;
-        // padding: 0px 100px 80px 100px;
         max-width: 1200px;
-        // border-right: 2px solid rgb(57, 57, 57);
+        margin-top: -70px;
 
         .aboutme {
             display: flex;
@@ -34,11 +35,6 @@
                 font-size: 45px;
                 font-weight: 800;
                 color: $primary-font-color;
-                // // background-color: #0093E9;
-                // background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-                // background-image: linear-gradient(160deg, #1f98df 0%, #4ef7c5 100%);
-                // -webkit-background-clip: text;
-                // -webkit-text-fill-color: transparent;
                 font-size: 50px;
                 font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
             }
@@ -46,11 +42,6 @@
             .firstname {
                 font-size: 45px;
                 font-weight: 800;
-                // background-color: #0093E9;
-                // background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
-                // background-image: linear-gradient(160deg, #1f98df 0%, #4ef7c5 100%);
-                // -webkit-background-clip: text;
-                // -webkit-text-fill-color: transparent;
                 font-size: 78px;
                 font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 
@@ -62,9 +53,7 @@
             }
 
             .about {
-                // line-height: 25px;
                 color: rgb(95, 95, 95);
-
                 margin: 30px 0px;
                 font-size: 30px;
                 font-weight: 600;
@@ -110,9 +99,16 @@
 
 @media screen and (max-width: 1200px) {
     .home-screen {
-
+        .immm{
+            border-radius: 50%;
+            aspect-ratio: 1/1;
+            width: 230px;
+            margin: auto;
+            margin-bottom: 70px;
+            display: block;
+        }
         .home-screen-wrapper {
-            padding: 0px 50px;
+            padding: 0px 40px;
 
             .aboutme {
                 font-size: 20px;
@@ -151,7 +147,6 @@
     .home-screen {
 
         .home-screen-wrapper {
-            padding: 0px 20px 60px 20px;
 
             .small-banner-image {
                 display: flex !important;
@@ -169,5 +164,8 @@
             }
         }
 
+        
     }
+        
+
 }

@@ -26,29 +26,28 @@ const Footer = () => {
                   <i className="fab fa-github"></i>
                   <FaGithub />
                 </a>
-                <a href="https://linkedin.com/in/your-username" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/sharanudhammur/" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-linkedin"></i>
                   <FaLinkedin />
                 </a>
-                <a href="https://twitter.com/your-username" target="_blank" rel="noopener noreferrer">
+                {/* <a href="https://twitter.com/your-username" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-twitter"></i>
                   <FaSquareXTwitter/>
-                </a>
-                <a href="https://dribbble.com/your-username" target="_blank" rel="noopener noreferrer">
+                </a> */}
+                {/* <a href="https://dribbble.com/your-username" target="_blank" rel="noopener noreferrer">
                   <i className="fab fa-dribbble"></i>
                   < FaTwitter />
-                </a>
+                </a> */}
               </div>
             </div>
           </div>
   
           {/* Contact Section */}
           <div className="contact-section">
-            <h4>Get in Touch</h4>
-            <p>Thank you for your interest in getting in touch with me. I welcome your feedback, questions, and suggestions.</p>
+            <p>Feel free to reach out to me</p>
             <div className="contact-details">
-              <p>Email: <a href="mailto:danielshan.balico@gmail.com">danielshan.balico@gmail.com</a></p>
-              <p>Phone: <strong>+123-456-7890</strong></p>
+              <p>Email: <a href="sharandhammur@gmail.com">sharandhammur@gmail.com</a></p>
+              <p>Phone: <strong>+91 8088 117092</strong></p>
             </div>
           </div>
   
