@@ -1,6 +1,6 @@
 import React from 'react'
 import "./styles.scss"
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { IoOpenOutline } from "react-icons/io5";
 
 function Project() {

@@ -2,8 +2,6 @@ import React from 'react';
 import './styles.scss'; // Custom CSS for modern look
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
-import { FaTwitter } from "react-icons/fa";
 
 const Footer = () => {
     const currentYear = new Date().getFullYear();
