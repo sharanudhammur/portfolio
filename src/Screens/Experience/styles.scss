@@ -11,7 +11,7 @@
         flex-direction: column;
         gap: 30px;
         margin: auto;
-        max-width: 800px;
+        max-width: 950px;
 
         .title {
             background-color: white;
@@ -42,7 +42,6 @@
                         border-radius: 50%;
                         aspect-ratio: 1/1;
                         color: white;
-                        // margin-top: 5px;
                     }
 
                     .line {
@@ -51,9 +50,6 @@
                         height: -webkit-fill-available;
                         height: 100%;
                         border-radius: 10px;
-                        // position: relative;
-                        // margin-left: -30px;
-                        // top: 0px;
                     }
                 }
 
@@ -66,23 +62,19 @@
                     .duration {
                         display: flex;
                         gap: 4px;
-                        font-size: 14px;
+                        font-size: 16px;
                         color: #05b96e;
-                        // font-weight: 300;
-                        // font-size: 18px;
                     }
 
-                    .position {
-                        font-weight: 500;
-                        // color: $primary-font-color;
-                        // font-size: 18px;
-                        color: rgb(84, 84, 84);
-                    }
-                    
-                    .company {
-                        font-size: 18px;
+                    .company-and-designation {
+                        font-size: 20px;
                         margin-top: 3px;
-                        // font-size: 20px;
+                        display: flex;
+                        gap: 10px;
+
+                        .designation {
+                            font-weight: 600;
+                        }
                     }
 
                     .points {
@@ -91,6 +83,8 @@
                         gap: 10px;
                         font-family: Inter, sans-serif;
                         color: rgb(84, 84, 84);
+                        margin-top: 5px;
+                        margin-bottom: 5px;
 
                         li {
                             line-height: 1.5;
@@ -106,11 +100,20 @@
 @media screen and (max-width: 850px) {
     .exp-screen {
         .exp-screen-wrapper {
-            padding: 70px 15px;
+            padding: 30px 15px;
 
             .exp-list {
                 .each-exp {
                     height: 100%;
+                    gap: 10px;
+
+
+                    .company-and-designation {
+                        flex-direction: column;
+                        .pipe{
+                            display: none;
+                        }
+                    }
 
                     .left {
                         .line {

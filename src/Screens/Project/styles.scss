@@ -4,9 +4,7 @@
     background-color: $bgcolor;
     display: flex;
     margin: auto;
-    background-color: rgba(128, 128, 128, 0.266);
-    background-color: rgb(15, 15, 15);
-    background-color: #121212;
+    background-color: white;
 
     .project-screen-wrapper {
         margin: auto;
@@ -17,7 +15,7 @@
         gap: 30px;
 
         .title {
-            color: white !important;
+            color: black !important;
         }
 
         .project-list {
@@ -26,15 +24,12 @@
 
             .project-card {
                 border-radius: 10px;
-                background-color: rgb(25, 25, 25);
-                background-color: rgb(19, 19, 22);
                 color: white;
                 display: grid;
                 grid-template-columns: auto 2fr;
                 gap: 20px;
                 padding: 20px;
                 overflow: hidden;
-                border: 1px solid rgb(39, 39, 42);
                 background-color: #1e1e1e;
                 border: 1px solid #3ccf92;
 
@@ -46,7 +41,6 @@
                 }
 
                 .project-detail {
-                    // padding: 0px 15px;
                     display: flex;
                     flex-direction: column;
 
@@ -62,7 +56,6 @@
                         font-size: 16px;
                         line-height: 1.5;
                         letter-spacing: 0.5px;
-                        // color: rgb(129, 129, 129);
                     }
 
                     .techs {
@@ -76,23 +69,23 @@
                             display: flex;
                             align-items: center;
                             padding: 5px 10px;
-                            background-color: #3b3b3b; // Item background color
+                            background-color: #3b3b3b;
                             border-radius: 20px;
-                            color: #ffffff; // Text color
-                            font-size: 12px;
+                            color: #ffffff;
+                            font-size: 13px;
                             transition: background-color 0.1s;
 
                             &:hover {
-                                background-color: #3ccf92; // Change on hover
+                                background-color: #3ccf92;
                             }
                             &:hover .dot {
-                                background-color: white; // Change on hover
+                                background-color: white;
                             }
 
                             .dot {
                                 height: 8px;
                                 width: 8px;
-                                background-color: #3ccf91; // Dot color
+                                background-color: #3ccf91;
                                 border-radius: 50%;
                                 margin-right: 8px;
                             }
@@ -103,11 +96,9 @@
                         margin-top: 20px;
                         display: flex;
                         gap: 20px;
-                        color: $primary-font-color;
                         color: rgb(182, 182, 182);
                         letter-spacing: 1px;
                         font-size: 14px;
-                        // justify-content: end;
 
                         .live, .git {
                             display: flex;
@@ -124,7 +115,7 @@
 @media screen and (max-width: 850px) {
     .project-screen {
         .project-screen-wrapper {
-            padding: 70px 15px;
+            padding: 30px 15px;
 
             .project-list {
                 display: grid;
@@ -144,6 +135,5 @@
                 }
             }
         }
-
     }
 }
