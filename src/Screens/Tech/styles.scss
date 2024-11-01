@@ -3,15 +3,15 @@
 .tech-screen {
     background-color: #121212;
     color: #e0e0e0;
-    padding: 60px 20px;
+    // padding: 60px 20px;
     display: flex;
     justify-content: center;
-    height: 100vh;
+    // height: 100vh;
 
     .tech-screen-wrapper {
         max-width: 800px;
-        margin: auto;
-        padding: 20px;
+        // margin: auto;
+        padding: 80px 0px;
         display: flex;
         flex-direction: column;
         gap: 30px;
@@ -82,7 +82,7 @@
 @media screen and (max-width: 850px) {
     .tech-screen {
         height: auto;
-        padding: 30px 15px;
+        padding: 70px 15px;
         .tech-screen-wrapper {
             padding: 0px;
         }
