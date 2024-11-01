@@ -34,6 +34,13 @@
 @media screen and (max-width: 850px) {
     .about-screen {
         height: auto;
-        padding: 30px 20px;
+        padding: 70px 20px;
+
+        .about-screen-wrapper {
+    
+            .about-me {
+                font-size: 16px;
+            }
+        }
     }
 }
