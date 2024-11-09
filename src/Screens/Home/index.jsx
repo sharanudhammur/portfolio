@@ -28,7 +28,7 @@ function Home() {
                     <div className='Hey_there'>Hey there!, I'm-</div>
                     <div className='firstname'>Sharan</div>
                     <div className='about'>
-                        <span style={{ color: "black" }}>Senior Software Engineer.</span> A self-taught developer with an interest in Computer Science.
+                        <span style={{ color: "black" }}>Senior Software Engineer.</span> A self-taught MERN Stack developer
                     </div>
                     <div className='links'>
                         {links.map((ele) => (

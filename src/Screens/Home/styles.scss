@@ -75,7 +75,7 @@
                 border: 2px solid white;
                 text-decoration: none;
                 width: fit-content;
-                margin-top: 20px;
+                margin-top: 15px;
             }
 
             .links {
@@ -119,9 +119,9 @@
     .home-screen {
         .immm{
             border-radius: 50%;
-            width: 260px;
+            width: 60vw;
             margin: auto;
-            margin-bottom: 50px;
+            margin-bottom: 30px;
             display: block;
         }
         .home-screen-wrapper {
@@ -155,6 +155,7 @@
 
 @media screen and (max-width: 850px) {
     .home-screen {
+        // margin-top: -25px;
         height: 100vh !important;
         .home-screen-wrapper {
             .small-banner-image {
