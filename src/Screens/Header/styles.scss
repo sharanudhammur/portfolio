@@ -9,24 +9,23 @@
     height: 70px;
     display: flex;
 
-    .header-wrapper{
+    .header-wrapper {
         margin: auto;
         max-width: 800px;
         display: flex;
         justify-content: center;
         gap: 10px;
-        
+
         .logo {
             font-size: 24px;
             display: none;
         }
-        
+
         .menus {
             display: flex;
-            gap: 20px;
             align-items: flex-end;
             font-size: 18px;
-            padding: 10px 50px;
+            padding: 5px 5px;
             justify-content: space-around;
             align-items: center;
             background: rgb(0, 0, 0);
@@ -34,9 +33,22 @@
             -webkit-backdrop-filter: blur(10px);
             border-radius: 40px;
             border: 2px solid white;
-            gap: 40px;
+
+            div {
+                padding: 5px 20px;
+                height: 22px;
+                display: flex;
+                align-items: center;
+
+            }
+
+            .active-menu {
+                background-color: #3CCF91;
+                border-radius: 30px;
+            }
         }
-        .resume-button{
+
+        .resume-button {
             background-color: #3CCF91;
             color: white;
             width: auto;
@@ -52,26 +64,39 @@
         }
     }
 }
-.gggg{
+
+.gggg {
     background-color: #3CCF91;
     border-radius: 30px;
     padding: 0px 5px;
 }
+
 @media screen and (max-width: 850px) {
 
     .header-component {
         top: 0px;
-        .header-wrapper{
+
+        .header-wrapper {
             padding: 0px;
+
             .menus {
-                gap: 10px !important;
+                // gap: 10px !important;
                 font-size: 3.6vw;
-                padding: 10px 20px;
+                padding: 4px;
                 border-radius: 40px;
-                gap: 20px;
+                // gap: 20px;
                 border-width: 1px;
+
+                div {
+                    padding: 4px 7px;
+                    height: 17px;
+                    display: flex;
+                    align-items: center;
+
+                }
             }
-            .resume-button{
+
+            .resume-button {
                 font-size: 14px;
                 display: none;
             }
