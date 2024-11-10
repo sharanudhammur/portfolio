@@ -14,7 +14,7 @@
         padding: 80px 0px;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 25px;
 
         .title {
             font-size: 28px;
@@ -83,8 +83,27 @@
     .tech-screen {
         height: auto;
         padding: 70px 15px;
+
         .tech-screen-wrapper {
             padding: 0px;
+            gap: 20px;
+
+            .title {
+                font-size: 24px;
+            }
+
+            .tech-cards {
+                .wrapper {
+                    .tech-title {
+                        font-size: 18px;
+                    }
+
+                    .each-tech-type .tech-type-wrapper .tech-detail {
+                        font-size: 13px;
+                        padding: 4px 8px;
+                    }
+                }
+            }
         }
     }
 }

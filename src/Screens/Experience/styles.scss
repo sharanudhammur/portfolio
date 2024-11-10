@@ -9,13 +9,12 @@
         padding: 80px 0px;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 25px;
         margin: auto;
         max-width: 950px;
 
         .title {
             background-color: white;
-            padding: 5px 0px;
         }
 
         .exp-list {
@@ -101,6 +100,13 @@
     .exp-screen {
         .exp-screen-wrapper {
             padding: 70px 15px;
+            gap: 20px;
+
+            .title {
+                font-size: 24px;
+            }
+
+
 
             .exp-list {
                 .each-exp {
@@ -110,7 +116,8 @@
 
                     .company-and-designation {
                         flex-direction: column;
-                        .pipe{
+
+                        .pipe {
                             display: none;
                         }
                     }
@@ -121,12 +128,29 @@
                         }
                     }
 
-                    .details .points {
-                        padding-inline-start: 20px;
+                    .details {
+                        .duration {
+                            font-size: 14px;
+                        }
+
+                        .company-and-designation {
+                            font-size: 16px;
+                            gap: 5px;
+
+                            .company {
+                                font-size: 15px;
+                            }
+                        }
+
+                        .points {
+                            padding-inline-start: 20px;
+                            margin-top: 0px;
+                            gap: 7px;
+                            font-size: 14px;
+                        }
                     }
                 }
             }
         }
-
     }
 }

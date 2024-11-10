@@ -10,10 +10,12 @@
     .about-screen-wrapper {
         margin: auto;
         max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
 
         .title {
             color: white;
-            margin-bottom: 20px;
         }
 
         .about-me {
@@ -22,7 +24,8 @@
             letter-spacing: 0.5px;
             font-weight: 300;
             color: white;
-            strong{
+
+            strong {
                 color: #3ccf91;
             }
         }
@@ -34,12 +37,17 @@
 @media screen and (max-width: 850px) {
     .about-screen {
         height: auto;
-        padding: 70px 20px;
+        padding: 70px 15px;
 
         .about-screen-wrapper {
-    
+            gap: 20px;
+
+            .title {
+                font-size: 24px;
+            }
+
             .about-me {
-                font-size: 16px;
+                font-size: 15px;
             }
         }
     }

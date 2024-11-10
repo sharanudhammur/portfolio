@@ -12,7 +12,7 @@
         padding: 80px 0px;
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 25px;
 
         .title {
             color: black !important;
@@ -78,6 +78,7 @@
                             &:hover {
                                 background-color: #3ccf92;
                             }
+
                             &:hover .dot {
                                 background-color: white;
                             }
@@ -100,10 +101,12 @@
                         letter-spacing: 1px;
                         font-size: 14px;
 
-                        .live, .git {
+                        .live,
+                        .git {
                             display: flex;
                             justify-self: center;
                             gap: 5px;
+                            align-items: center;
                         }
                     }
                 }
@@ -116,13 +119,20 @@
     .project-screen {
         .project-screen-wrapper {
             padding: 70px 15px;
+            gap: 20px;
+
+            .title {
+                font-size: 24px;
+            }
 
             .project-list {
                 display: grid;
                 grid-template-columns: 1fr;
 
                 .project-card {
-                    display: block;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 20px;
 
                     img {
                         height: auto;
@@ -130,7 +140,21 @@
                     }
 
                     .project-detail {
-                        padding: 10px 0px;
+
+                        .name {
+                            font-size: 18px;
+                        }
+
+                        .desc {
+                            font-size: 14px;
+                        }
+
+                        .techs {
+                            .tech {
+                                font-size: 12px;
+                                padding: 4px 8px;
+                            }
+                        }
                     }
                 }
             }

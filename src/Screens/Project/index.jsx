@@ -12,7 +12,7 @@ function Project() {
             img: "https://m-img.org/spai/w_924+q_lossless+ret_img+to_webp/matomo.org/wp-content/uploads/2022/10/Chewy-Homepage.png",
             link: "",
             githubLink: "",
-            tech: ["React JS", "HTML", "CSS", "JavsScript","SCSS"]
+            tech: ["React JS", "HTML", "CSS", "JavsScript", "SCSS"]
         },
         {
             name: "React Carousel (NPM Package)",
@@ -20,7 +20,7 @@ function Project() {
             img: "https://www.searchenginejournal.com/wp-content/uploads/2019/10/skype-home-page-example-5dbbf8645cb39.jpg",
             link: "",
             githubLink: "",
-            tech: ["React JS", "HTML", "CSS", "JavsScript","SCSS"]
+            tech: ["React JS", "HTML", "CSS", "JavsScript", "SCSS"]
         },
         {
             name: "Resume Sender Service",
@@ -28,7 +28,7 @@ function Project() {
             img: "https://img.freepik.com/free-vector/flat-design-abstract-geometric-real-estate-landing-page_23-2149127010.jpg?size=626&ext=jpg&ga=GA1.1.1819120589.1727913600&semt=ais_hybrid",
             link: "",
             githubLink: "",
-            tech: ["ReactJS", "NodeJs","JavsScript", "TypeScript", "ExpressJs", "MongoDB", "Mongoose","JWT", "oAuth", "Cookies", "HTML", "CSS"]
+            tech: ["ReactJS", "NodeJs", "JavsScript", "TypeScript", "ExpressJs", "MongoDB", "Mongoose", "JWT", "oAuth", "Cookies", "HTML", "CSS"]
         },
         {
             name: "Chat MERN App",
@@ -36,7 +36,7 @@ function Project() {
             img: "https://img.freepik.com/free-vector/business-concept-landing-page_23-2148276812.jpg",
             link: "",
             githubLink: "",
-            tech: ["ReactJS", "NodeJs","JavsScript", "TypeScript", "ExpressJs", "MongoDB", "Mongoose","JWT", "oAuth", "Cookies", "HTML", "CSS"]
+            tech: ["ReactJS", "NodeJs", "JavsScript", "TypeScript", "ExpressJs", "MongoDB", "Mongoose", "JWT", "oAuth", "Cookies", "HTML", "CSS"]
         },
         {
             name: "Email Verification & Password Recovery",
@@ -44,7 +44,7 @@ function Project() {
             img: "https://img.freepik.com/free-psd/flat-design-interior-design-template_23-2150031565.jpg",
             link: "",
             githubLink: "",
-            tech: ["ReactJS", "NodeJs","JavsScript", "TypeScript", "ExpressJs", "MongoDB", "Mongoose","JWT", "oAuth", "Cookies", "HTML", "CSS"]
+            tech: ["ReactJS", "NodeJs", "JavsScript", "TypeScript", "ExpressJs", "MongoDB", "Mongoose", "JWT", "oAuth", "Cookies", "HTML", "CSS"]
         },
     ]
     return (
