@@ -10,7 +10,8 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    .immm{
+
+    .immm {
         display: none;
     }
 
@@ -61,7 +62,7 @@
                 font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
             }
 
-            .resume-button{
+            .resume-button {
                 background-color: #3CCF91;
                 color: white;
                 width: auto;
@@ -117,29 +118,18 @@
 
 @media screen and (max-width: 1200px) {
     .home-screen {
-        .immm{
+        .immm {
             border-radius: 50%;
             width: 60vw;
             margin: auto;
             margin-bottom: 30px;
             display: block;
         }
+
         .home-screen-wrapper {
             padding: 0px 40px;
-            .aboutme {
-                font-size: 20px;
-                .Hey_there {
-                    font-size: 25px;
-                }
 
-                .firstname {
-                    font-size: 35px;
-                }
-                .about {
-                    font-size: 20px;
-                    margin: 10px 0px;
-                }
-            }
+
 
             .banner-image {
                 img {
@@ -155,11 +145,29 @@
 
 @media screen and (max-width: 850px) {
     .home-screen {
-        // margin-top: -25px;
         height: 100vh !important;
+
         .home-screen-wrapper {
+            .aboutme {
+                font-size: 20px;
+
+                .Hey_there {
+                    font-size: 25px;
+                }
+
+                .firstname {
+                    font-size: 35px;
+                }
+
+                .about {
+                    font-size: 20px;
+                    margin: 5px 0px;
+                }
+            }
+
             .small-banner-image {
                 display: flex !important;
+
                 img {
                     height: 100px;
                     width: 100px;
@@ -171,7 +179,8 @@
             .banner-image {
                 display: none;
             }
-            .resume-button{
+
+            .resume-button {
                 display: flex !important;
             }
         }
