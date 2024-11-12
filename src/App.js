@@ -33,7 +33,7 @@ function App() {
             const projectRect = projectRef.current.getBoundingClientRect();
             const footerRect = footerRef.current.getBoundingClientRect();
 
-            if (footerRect.top < 300) {
+            if (footerRect.top < 450) {
                 setActivePage("footer");
             }
             else if (projectRect.top < 300) {

@@ -55,7 +55,7 @@
                         font-weight: 300;
                         font-size: 16px;
                         line-height: 1.5;
-                        letter-spacing: 0.5px;
+                        letter-spacing: 0.6px;
                     }
 
                     .techs {
@@ -74,6 +74,7 @@
                             color: #ffffff;
                             font-size: 13px;
                             transition: background-color 0.1s;
+                            letter-spacing: 0.6px;
 
                             &:hover {
                                 background-color: #3ccf92;
@@ -100,6 +101,7 @@
                         color: rgb(182, 182, 182);
                         letter-spacing: 1px;
                         font-size: 14px;
+                        justify-content: flex-end;
 
                         .live,
                         .git {
@@ -107,6 +109,14 @@
                             justify-self: center;
                             gap: 5px;
                             align-items: center;
+                            padding: 4px 6px;
+                            border-radius: 30px;
+
+                            &:hover {
+                                background-color: black;
+                                background-color: #3b3b3b;
+                                cursor: pointer;
+                            }
                         }
                     }
                 }

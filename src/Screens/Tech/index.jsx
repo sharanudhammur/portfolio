@@ -7,15 +7,15 @@ function Tech() {
     const skills = [
         {
             type: "Languages",
-            keywords: ["JavaScript", "TypeScript", "HTML", "CSS", "C", "C++"]
+            keywords: ["JavaScript", "TypeScript", "HTML", "CSS", "SASS", "C", "C++"]
         },
         {
             type: "Frameworks",
-            keywords: ["React.js", "Redux / Redux Toolkit", "Tailwind CSS", "Bootstrap / MUI", "Node.js", "Express.js", "MongoDB", "RDBMS", "WebSocket / Socket.io", "JWT Token", "Firebase", "RESTful API", "AJAX"]
+            keywords: ["React.js", "Node.js", "Express.js", "MongoDB", "Redux / Redux Toolkit", "Tailwind CSS", "Bootstrap / MUI", "jQuery", , "WebSocket / Socket.io", "Firebase", "JWT Token", "Firebase", "RESTful API", "AJAX", "oAuth"]
         },
         {
             type: "Tools & Others",
-            keywords: ["Git / GitHub", "npm", "Postman", "Swagger", "Vercel", "SonarQube", "Sentry", "Stripe", "Figma", "Docker", "Kubernetes"]
+            keywords: ["Git / GitHub", "npm", "Postman", "Swagger", "Vercel", "SonarQube", "Sentry", "Stripe"]
         },
     ];
 

@@ -17,7 +17,7 @@ function Home() {
     ];
 
     useEffect(() => {
-        setIsVisible(true); // Trigger the animation when component mounts
+        setIsVisible(true);
     }, []);
 
     return (
@@ -26,7 +26,7 @@ function Home() {
                 <div className='aboutme'>
                     <img className={`immm ${isVisible ? 'slide-in' : ''}`} src={ProfilePic} alt="Profile" />
                     <div className='Hey_there'>Hey there!, I'm-</div>
-                    <div className='firstname'>Sharan</div>
+                    <div className='firstname'>Sharanabasappa</div>
                     <div className='about'>
                         <span style={{ color: "black" }}>Senior Software Engineer.</span> A self-taught MERN Stack developer
                     </div>
@@ -37,7 +37,7 @@ function Home() {
                             </a>
                         ))}
                     </div>
-                        <a target='_blank' href='https://drive.google.com/file/d/1X-n4hY0lyhgk739s55vJS4wyPFr7OvGz/view' rel="noopener noreferrer" className='resume-button'>Resume</a>
+                    <a target='_blank' href='https://drive.google.com/file/d/1X-n4hY0lyhgk739s55vJS4wyPFr7OvGz/view' rel="noopener noreferrer" className='resume-button'>Resume</a>
                 </div>
             </div>
         </div>
