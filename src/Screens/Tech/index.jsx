@@ -18,7 +18,6 @@ function Tech() {
         "Tailwind CSS",
         "Bootstrap / MUI",
         "jQuery",
-        ,
         "WebSocket / Socket.io",
         "Firebase",
         "JWT Token",
