@@ -45,8 +45,7 @@ function About() {
                   Lightweight candlestick and line charts for historical data
                 </li>
                 <li>
-                  Performance-focused enhancements (lazy loading, code
-                  splitting, etc.)
+                  Improved application performance by using React techniques such as lazy loading, code splitting, and more
                 </li>
               </ul>
             </div>
