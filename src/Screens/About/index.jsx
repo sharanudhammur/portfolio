@@ -14,7 +14,7 @@ function About() {
                 . I'm a
                 <span className="highlight"> MERN Full Stack Developer </span>{" "}
                 with over
-                <span className="highlight">4 years</span> of experience
+                <span className="highlight"> 4+ years</span> of experience
                 building scalable, high-performance web applications.
               </p>
               <p>
