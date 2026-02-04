@@ -7,7 +7,9 @@ import ProfilePic from "../../Assets/Images/image3.jpeg";
 function Home() {
   const [isVisible, setIsVisible] = useState(false);
   const [showMobile, setShowMobile] = useState(false);
-  const [_hovered, setHovered] = useState(false);
+  const [hovered, setHovered] = useState(false);
+
+  console.log("isVisible", hovered);
 
   const links = [
     // { linkName: "Instagram", icon2: <FaInstagram />, url: "" },
