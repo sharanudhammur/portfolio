@@ -59,9 +59,9 @@ function Home() {
               Senior Full-Stack MERN Developer with 5+ years of experience
             </span>
             <div>
-              in building scalable, high-performance web applications using
+              {/* in building scalable, high-performance web applications using */}
             </div>
-            <div>React, Next.js, Node.js, Express.js and MongoDB.</div>
+            <div>Expertise React, Next.js, Node.js, Express.js and MongoDB.</div>
           </div>
           <div
             className="resume-button"
