@@ -1,14 +1,13 @@
-import React, { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 import "./styles.scss";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import ProfilePic from "../../Assets/Images/image3.jpeg";
 
 function Home() {
   const [isVisible, setIsVisible] = useState(false);
   const [showMobile, setShowMobile] = useState(false);
-  const [hovered, setHovered] = useState(false);
+  const [_hovered, setHovered] = useState(false);
 
   const links = [
     // { linkName: "Instagram", icon2: <FaInstagram />, url: "" },
