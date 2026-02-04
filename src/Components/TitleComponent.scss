@@ -1,0 +1,30 @@
+@import "../theme.scss";
+.title-component {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 26px;
+  color: #222;
+}
+
+.title-component::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: $primary-color;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .title-component {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .title-component::after {
+    content: "";
+    height: 3px;
+    margin-top: 10px;
+  }
+}

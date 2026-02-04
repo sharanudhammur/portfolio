@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .footer-modern {
   background: #1a1a1a;
   color: #f0f0f0;
@@ -100,3 +101,112 @@
     text-align: center;
   }
 }
+=======
+@import "../../theme.scss";
+
+.footer-modern {
+  background: $seconday-bg-color;
+  padding: 60px 20px;
+
+  .footer-container {
+    max-width: 800px;
+    margin: 0 auto;
+
+    .footer-top {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #444;
+      padding-bottom: 50px;
+
+      .brand-section {
+        text-align: center;
+
+        h3 {
+          font-size: 28px;
+          font-weight: 700;
+          margin-bottom: 15px;
+        }
+
+        p {
+          font-size: 16px;
+          margin: 0;
+        }
+      }
+
+      .social-section {
+        text-align: center;
+        margin-top: 20px;
+
+        h4 {
+          font-size: 22px;
+          font-weight: 500;
+          margin-bottom: 20px;
+          letter-spacing: 1px;
+        }
+
+        .social-links {
+          display: flex;
+          justify-content: center;
+          gap: 30px;
+
+          a {
+            color: #222;
+            font-size: 30px;
+            transition:
+              transform 0.3s,
+              color 0.3s;
+
+            &:hover {
+              color: $primary-color;
+              transform: scale(1.2);
+            }
+          }
+        }
+      }
+    }
+
+    .contact-section {
+      text-align: center;
+      padding-top: 50px;
+
+      p {
+        font-size: 16px;
+      }
+
+      .contact-details {
+        p {
+          font-size: 18px;
+
+          a {
+            color: $primary-color;
+            color: #222;
+            font-weight: 600;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    .footer-bottom {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 14px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer-modern {
+    .footer-container {
+      .footer-top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+    }
+  }
+}
+>>>>>>> ef3c20d (UI change)
