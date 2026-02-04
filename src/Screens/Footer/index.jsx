@@ -49,18 +49,21 @@ const Footer = () => {
         </div>
 
         {/* Contact Section */}
-        <div className="contact-section">
-          <p>Feel free to reach out to me</p>
-          <div className="contact-details">
-            <p>
-              Email:{" "}
-              <a href="sharandhammur@gmail.com">sharandhammur@gmail.com</a>
-            </p>
-            <p>
-              Phone: <a>+91 8088 117092</a>
-            </p>
-          </div>
+        <div className="contact-details">
+          <p>
+            Email:{" "}
+            <a href="mailto:sharandhammur@gmail.com">
+              sharandhammur@gmail.com
+            </a>
+          </p>
+          <p>
+            Phone:{" "}
+            <a href="tel:+918088117092">
+              +91 8088 117092
+            </a>
+          </p>
         </div>
+
 
         {/* Footer Bottom Section */}
         <div className="footer-bottom">
