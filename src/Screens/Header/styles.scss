@@ -1,0 +1,98 @@
+@import "../../theme.scss";
+
+.header-component {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  color: white;
+
+  .header-wrapper {
+    margin: auto;
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    .logo {
+      font-size: 24px;
+      display: none;
+    }
+
+    .menus {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      font-size: 18px;
+      padding: 5px;
+      background: rgb(0, 0, 0);
+      backdrop-filter: saturate(180%) blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      border-radius: 40px;
+      border: 1px solid white;
+      gap: 4px;
+
+      div {
+        padding: 5px 20px;
+        height: 22px;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+
+        &:hover {
+          background-color: rgba(60, 207, 146, 0.42);
+          border-radius: 30px;
+        }
+      }
+
+      .active-menu {
+        background-color: $primary-color !important;
+        border-radius: 30px;
+        color: white;
+      }
+    }
+
+    .resume-button {
+      background-color: $primary-color;
+      color: white;
+      border-radius: 50px;
+      padding: 10px 20px;
+      font-size: 18px;
+      border: 1px solid white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .header-component {
+    .header-wrapper {
+      padding: 0;
+
+      .menus {
+        font-size: 3.6vw;
+        padding: 4px;
+        gap: 0;
+
+        div {
+          padding: 4px 7px;
+          height: 17px;
+
+          &:hover {
+            // background-color: black;
+          }
+        }
+      }
+
+      .resume-button {
+        display: none;
+        font-size: 14px;
+      }
+    }
+  }
+}
